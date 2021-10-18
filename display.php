@@ -49,8 +49,8 @@
                                 <td>$email</td>
                                 <td>$telephone</td>
                                 <td>$password</td>
-                                <td><button type='button'  class='btn btn-success' name = 'update'><a href='update.php?update_id' class = 'text-light'>Update</a></button>
-                                <button type='button'  class='btn btn-danger' name = 'delete'><a href='delete.php?delete_id' class = 'text-light'>Delete</a></button></td>
+                                <td><button type='button'  class='btn btn-success'><a href='update.php?update_id=$id' class = 'text-light'>Update</a></button>
+                                <button type='button'  class='btn btn-danger'><a href='delete.php?delete_id=$id' class = 'text-light'>Delete</a></button></td>
                             <tr>";
                         }
                     }else{
